@@ -201,3 +201,103 @@ const l = PI * d ;
 
 console.log('l: ', l);
 */
+
+// Примеры на переменные и операции в JavaScript
+/* 1
+const a = 60 * 60 * 24;
+
+console.log(a);
+*/
+
+/* 2
+const a = 60 * 60 * 24 * 30;
+
+console.log(a);
+*/
+
+/* 3
+const a = 60 * 60 * 24 * 30 * 365;
+
+console.log(a);
+*/
+
+/* 4
+const a = 60 * 24;
+
+console.log(a);
+*/
+
+/* 5
+const a = 60 * 24 * 365;
+
+console.log(a);
+*/
+
+// Перевод в байты и наоборот
+/* 1, 2, 3, 4, 5
+const bytes = 1;
+const kilobytes = bytes * 1024;
+const megabytes = kilobytes * 1024;
+const gigabytes = megabytes  * 1024;
+const terabyte = gigabytes * 1024;
+
+console.log('bytes in megabytes: ', megabytes);
+console.log('bytes in gigabytes: ', gigabytes);
+console.log('bytes in 10 gigabytes: ', gigabytes * 10);
+console.log('bytes in terabyte: ', terabyte);
+console.log('kilobytes in terabyte: ', terabyte / 1024);
+*/
+
+// Площади фигур
+/* 1
+// (S=πR²)
+const r = 4.2;
+const r2 = r ** 2;
+const PI = 3.14;
+const S = PI * r2;
+
+console.log(S);
+*/
+
+/* 2
+// S = a²
+const a = 6;
+const s = a ** 2;
+
+console.log(s);
+*/
+
+/* 3
+// a*b=S
+const a = 3;
+const b = 4;
+const s = a * b;
+
+console.log(s);
+*/
+
+/* 4
+// P=2(a+b)
+const a = 4;
+const b = 7;
+const p = 2 * (a + b);
+
+console.log(p);
+*/
+
+// Из Цельсия в Фаренгейты и наоборот
+/* 1
+// °F = (°C × 9/5) + 32
+const ts = 36.6;
+const F = (ts * (9 / 5) + 32);
+
+console.log(F);
+*/
+
+/* 2
+// tc = 5/9(tf - 32)
+const tf = 98;
+const tc = 5 / 9 * (tf - 32);
+
+console.log(tc);
+*/
